@@ -1,0 +1,20 @@
+<html style=
+"font-family: cursive;
+display: inline-block;
+margin: 0px auto;
+text-align: center;">
+
+<h1>Bem vindo ADM <%= name %></h1>
+<form action="/admin" method="POST">
+    <div id="text_ori">
+
+        Nesta plataforma você como admnistrador pode fazer tudo aquilo que estiver ao seu alcance
+
+    </div>
+    <div> </div>
+    <div>Lembre-se sempre de dar Log out quando sair, pois outra pessoa pode entrar na sua conta</div>
+    <button type="submit">Log Out</button>
+    <a href="/register" id="name_register" style="color: black;">Registrar-se</a>
+    <a href="/reset" id="name_reset" style="color: black;">Resetar todo o sistema</a>
+</form>
+</html>
